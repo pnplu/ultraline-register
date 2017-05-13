@@ -1,0 +1,167 @@
+body {
+  background-color: #2b1e4a;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  color: #FFFFFF;
+  font-family: 'Kanit', sans-serif; }
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0px auto; }
+
+a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+a:hover {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+@media screen and (min-width: 319px) {
+  .box_left {
+    height: 200px; }
+    .box_left img {
+      max-width: 100%;
+      height: auto;
+      overflow: hidden; }
+
+  .box_right {
+    min-height: 300px;
+    background-color: #2b1e4a; }
+    .box_right h1 {
+      font-weight: 100;
+      padding-top: 20px;
+      text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.9); }
+      .box_right h1 img {
+        width: 35px;
+        height: auto; }
+    .box_right .input_box {
+      width: 100%;
+      height: 40px;
+      margin-top: 20px;
+      color: #8067b9;
+      background: none;
+      border: none;
+      border-bottom: 2px solid #8067b9;
+      font-size: 1.2em;
+      font-weight: 200;
+      box-sizing: border-box;
+      display: block; }
+    .box_right ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #8067b9; }
+    .box_right ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #8067b9; }
+    .box_right :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #8067b9; }
+    .box_right :-moz-placeholder {
+      /* Firefox 18- */
+      color: #8067b9; }
+    .box_right .image_radio {
+      position: relative;
+      width: 150px;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto; }
+      .box_right .image_radio img {
+        max-width: 150px;
+        height: auto; }
+      .box_right .image_radio span {
+        width: 150px;
+        height: 40px;
+        padding-top: 8px;
+        font-size: 1.2em;
+        display: inline-block;
+        border: 2px solid #8067b9;
+        border-radius: 30px;
+        cursor: pointer;
+        margin: 10px auto; }
+      .box_right .image_radio label {
+        width: 150px;
+        font-weight: 200;
+        position: relative;
+        text-align: center; }
+      .box_right .image_radio input[type="radio"] {
+        opacity: 0;
+        width: 100%;
+        height: 2em;
+        border: 0px;
+        position: absolute;
+        z-index: 1000;
+        top: 180px;
+        left: 0px; }
+      .box_right .image_radio input[type="radio"] + span {
+        background-color: #2b1e4a;
+        color: #FFF; }
+      .box_right .image_radio input[type="radio"]:checked + span {
+        background-color: #8067b9; }
+    .box_right .btn_center {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto; }
+      .box_right .btn_center .btn_click {
+        width: 45%;
+        height: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: #666666;
+        margin-top: 40px;
+        margin-bottom: 50px; }
+      .box_right .btn_center .btn_c1 {
+        background: -webkit-linear-gradient(#bd58ff, #8148e3);
+        font-size: 1.2em;
+        font-weight: 200;
+        border: none;
+        border-radius: 30px; }
+      .box_right .btn_center .btn_c2 {
+        background: -webkit-linear-gradient(#a5e00f, #31af73);
+        font-size: 1.2em;
+        font-weight: 200;
+        border: none;
+        border-radius: 30px; }
+    .box_right .box_input {
+      position: relative;
+      width: 100%;
+      color: #8067b9; }
+      .box_right .box_input .text_label {
+        position: absolute;
+        font-size: 1.2em;
+        font-weight: 200;
+        pointer-events: none;
+        top: 10px; }
+    .box_right .margin_s {
+      margin-top: 100px; }
+    .box_right .box_success .h1_s {
+      text-align: center;
+      font-weight: 200; }
+    .box_right .box_success .btn_centers {
+      max-width: 300px;
+      margin: 0px auto; }
+      .box_right .box_success .btn_centers button {
+        width: 100%;
+        height: 40px;
+        background-color: #666666;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        border: none;
+        border-radius: 30px;
+        background-color: #8067b9;
+        font-size: 1.2em;
+        font-weight: 200; } }
+@media screen and (min-width: 599px) {
+  .box_left {
+    height: 350px; } }
+@media screen and (min-width: 959px) {
+  .box_right .input_box {
+    width: 450px; }
+  .box_right .image_radio {
+    margin-top: 60px; }
+  .box_right .btn_center {
+    float: right; }
+    .box_right .btn_center .btn_click {
+      width: 120px; } }
+
+/*# sourceMappingURL=style_index.css.map */
