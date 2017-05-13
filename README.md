@@ -13,3 +13,10 @@ Change connection to server or vistual server in **asset/db_connect.php**
 Create databse name **ultraline_db** and import database in folder database
 - web11_db_ultraline.sql
 - web11_ultraline_vote.sql
+
+####You can change email to sender in **asset/register_process.php**
+####! use gmail only and gmail enable to access application 
+``
+$mail->Username
+$mail->Password
+``
